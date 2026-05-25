@@ -1,0 +1,18 @@
+<html>
+<head>
+    <title>Edit Employee</title>
+</head>
+<body>
+
+<h2>Edit Employee</h2>
+
+<form method="POST">
+    <input type="text" name="name" value="{{ employee.name }}"><br><br>
+    <input type="email" name="email" value="{{ employee.email }}"><br><br>
+    <input type="text" name="department" value="{{ employee.department }}"><br><br>
+
+    <button type="submit">Update</button>
+</form>
+
+</body>
+</html>
